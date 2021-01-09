@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="About College">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_about_college"
+                    android:icon="@drawable/ic_baseline_home_24"
+                    android:title="About College" />
+                <item
+                    android:id="@+id/nav_news"
+                    android:icon="@drawable/ic_baseline_dashboard_24"
+                    android:title="News" />
+                <item
+                    android:id="@+id/nav_student"
+                    android:icon="@drawable/student_icon"
+                    android:title="Student" />
+                <item
+                    android:id="@+id/nav_employee"
+                    android:icon="@drawable/employee_icon"
+                    android:title="Employee" />
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="Profile">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_login"
+                    android:icon="@drawable/login_icon"
+                    android:title="Login" />
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/ic_baseline_person_24"
+                    android:title="Profile" />
+
+                <item
+                    android:id="@+id/nav_signup"
+                    android:icon="@drawable/ic_baseline_person_add_24"
+                    android:title="SignUp" />
+            </group>
+        </menu>
+
+    </item>
+
+
+    <item android:title="Communicate">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_baseline_share_24"
+                    android:title="Share" />
+
+                <item
+                    android:id="@+id/nav_rate"
+                    android:icon="@drawable/ic_baseline_star_border_24"
+                    android:title="Rate Us" />
+
+                <item
+                    android:id="@+id/nav_about_us"
+                    android:icon="@drawable/ic_baseline_info_24"
+                    android:title="About Us" />
+            </group>
+
+        </menu>
+    </item>
+</menu>
